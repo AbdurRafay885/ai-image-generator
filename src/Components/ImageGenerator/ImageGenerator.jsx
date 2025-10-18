@@ -29,7 +29,7 @@ const ImageGenerator = () => {
   }, 200);
 
   try {
-    const url = `https://image.pollinations.ai/prompt/${encodeURIComponent(prompt)}`;
+    const url = `YOUR_API_KEY_HERE`;
     setImageUrl(url);
     inputRef.current.value = "";
   } 
